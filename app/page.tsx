@@ -194,11 +194,12 @@ export default function Home() {
 
 
 <div className="brand-category-card">
-  <h3>🧴 Household</h3>
+  <h3>🧴 HPC</h3>
 
   <div className="brand-list">
     <span>Duracell</span>
     <span>Selpak</span>
+    <span>Febreze</span>
   </div>
 </div>
 
