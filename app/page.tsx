@@ -873,171 +873,151 @@ and support sustainable revenue growth.
 
 <section className="section contact" id="contact">
 
-  <div className="container">
+  <div className="contact-heading">
+  <span className="section-label">GET IN TOUCH</span>
 
-    <div className="contact-box">
+  <h2>
+    Let&apos;s build your next marketplace success story.
+  </h2>
 
-      <span>GET IN TOUCH</span>
+  <p>
+    Whether you&apos;re looking to improve Amazon PPC, scale marketplace
+    advertising, or strengthen performance across Noon and Talabat,
+    I&apos;d be happy to connect.
+  </p>
+</div>
 
-      <h2>
-        Let&apos;s build your next marketplace success story.
-      </h2>
+<div className="contact-info-grid">
 
-      <p>
-        Whether you&apos;re looking to improve Amazon PPC,
-        launch campaigns across Noon or Talabat,
-        optimize advertising performance,
-        or simply discuss marketplace strategy,
-        I&apos;d be happy to connect.
-      </p>
-
-
-
-      <div className="contact-grid">
-
-        <div className="contact-item">
-
-          <h3>Email</h3>
-
-          <a href="mailto:ppc.paul.01@gmail.com">
-            ppc.paul.01@gmail.com
-          </a>
-
-        </div>
-
-
-
-        <div className="contact-item">
-
-          <h3>Location</h3>
-
-          <p>
-            Dubai, United Arab Emirates
-          </p>
-
-        </div>
-
-
-
-        <div className="contact-item">
-
-          <h3>Specialization</h3>
-
-          <p>
-            Marketplace Advertising
-            • Amazon PPC
-            • Noon Ads
-            • Talabat Ads
-          </p>
-
-        </div>
-
-      </div>
-
-
-
-      <div className="contact-buttons">
-
-        <a
-          href="mailto:ppc.paul.01@gmail.com"
-          className="primary-btn"
-        >
-          Let&apos;s Talk
-        </a>
-
-        <a
-          href="/JP-Serafica-CV.pdf"
-          className="secondary-btn"
-          download
-        >
-          Download CV
-        </a>
-
-      </div>
-
+  <div className="contact-info-card">
+    <div className="contact-icon">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+      >
+        <path d="M4 5h16v14H4z" />
+        <path d="m4 7 8 6 8-6" />
+      </svg>
     </div>
 
+    <div>
+      <span>Email</span>
+      <strong>ppc.paul.01@gmail.com</strong>
+    </div>
   </div>
 
-</section>
 
+  <a
+    href="https://www.linkedin.com/in/john-paul-serafica-digital-marketing-specialist-838102288"
+    className="contact-info-card"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <div className="contact-icon">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+      >
+        <rect x="4" y="4" width="16" height="16" rx="2" />
+        <path d="M8 10v6" />
+        <path d="M8 8h.01" />
+        <path d="M12 16v-3.5a2.5 2.5 0 0 1 5 0V16" />
+        <path d="M12 10v6" />
+      </svg>
+    </div>
+
+    <div>
+      <span>LinkedIn</span>
+      <strong>John Paul Serafica</strong>
+    </div>
+  </a>
+
+
+  <div className="contact-info-card">
+    <div className="contact-icon">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+      >
+        <circle cx="12" cy="12" r="9" />
+        <path d="M3 12h18" />
+        <path d="M12 3c3 3 4 6 4 9s-1 6-4 9" />
+        <path d="M12 3c-3 3-4 6-4 9s1 6 4 9" />
+      </svg>
+    </div>
+
+    <div>
+      <span>Availability</span>
+      <strong>Remote / Worldwide</strong>
+    </div>
+  </div>
+</div>
+
+<div className="contact-actions">
+
+  <a
+    href="mailto:ppc.paul.01@gmail.com"
+    className="contact-primary-btn"
+  >
+    Send an Email
+  </a>
+
+  <a
+    href="/JP-Serafica-CV.pdf"
+    className="contact-secondary-btn"
+    download
+  >
+    Download CV
+  </a>
+
+</div>
+
+</section>
 
 {/* =========================
     FOOTER
 ========================== */}
 
 <footer className="footer">
-
   <div className="container">
 
-    <div className="footer-top">
+    <div className="footer-inner">
 
-      <h2>
-        John Paul Serafica
-      </h2>
+      <a href="#home" className="footer-logo">
+        Jayp<span>.</span>
+      </a>
 
-      <p>
-        Marketplace Advertising Specialist
+      <h2>John Paul Serafica</h2>
+
+      <p className="footer-role">
+        Marketplace Advertising & Performance Marketing Specialist
       </p>
 
-    </div>
+      <nav className="footer-nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#platforms">Platforms</a>
+        <a href="#skills">Skills</a>
+        <a href="#case-studies">Projects</a>
+        <a href="#performance">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
+      <div className="footer-divider"></div>
 
-
-    <div className="footer-links">
-
-      <a href="#home">
-        Home
-      </a>
-
-      <a href="#about">
-        About
-      </a>
-
-      <a href="#experience">
-        Experience
-      </a>
-
-      <a href="#platforms">
-        Platforms
-      </a>
-
-      <a href="#skills">
-        Skills
-      </a>
-
-      <a href="#case-studies">
-        Projects
-      </a>
-
-      <a href="#performance">
-        Achievements
-      </a>
-
-      <a href="#contact">
-        Contact
-      </a>
-
-    </div>
-
-
-
-    <div className="footer-bottom">
-
-      <p>
-        © {new Date().getFullYear()} John Paul Serafica.
-        All rights reserved.
-      </p>
-
-      <p>
-        Built with Next.js, TypeScript and passion for
-        marketplace advertising.
+      <p className="footer-copyright">
+        © {new Date().getFullYear()} John Paul Serafica. All rights reserved.
       </p>
 
     </div>
 
   </div>
-
 </footer>
 
       </main>
