@@ -5,41 +5,35 @@ import { useEffect, useRef } from "react";
 export default function Hero() {
   const heroRef = useRef<HTMLElement | null>(null);
 
-  useEffect(() => {
-    const hero = heroRef.current;
+useEffect(() => {
+  let ticking = false;
 
-    if (!hero) return;
+  const updateParallax = () => {
+    const movement = Math.min(window.scrollY * 0.4, 160);
 
-    let ticking = false;
+    document.documentElement.style.setProperty(
+      "--hero-parallax",
+      `${movement}px`
+    );
 
-    const updateParallax = () => {
-      const movement = Math.min(window.scrollY * 0.4, 160);
+    ticking = false;
+  };
 
-      hero.style.setProperty(
-        "--hero-parallax",
-        `${movement}px`
-      );
+  const handleScroll = () => {
+    if (!ticking) {
+      window.requestAnimationFrame(updateParallax);
+      ticking = true;
+    }
+  };
 
-      ticking = false;
-    };
+  updateParallax();
 
-    const handleScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(updateParallax);
-        ticking = true;
-      }
-    };
+  window.addEventListener("scroll", handleScroll, { passive: true });
 
-    updateParallax();
-
-    window.addEventListener("scroll", handleScroll, {
-      passive: true,
-    });
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   return (
     <section ref={heroRef} className="hero" id="home">

@@ -33,10 +33,10 @@ export default function Home() {
 <div className="about-text">
 
       <p>
-        I&apos;m <strong>John Paul Serafica</strong>, a Digital Marketing
-        Specialist with more than five years of experience managing
-        marketplace advertising for Regional and International
-        Brands across the UAE.
+       I&apos;m <strong>John Paul Serafica</strong>, a Digital Marketing
+Specialist with marketplace advertising and PPC experience
+dating back to 2021, managing Regional and International
+Brands across multiple marketplace platforms.
       </p>
 
       <p>
@@ -64,15 +64,19 @@ export default function Home() {
 
     <div className="about-highlights">
 
-    <div className="highlight-card">
+<div className="highlight-card">
 
-        <h3>5+</h3>
+  <h3 className="experience-range">
+  2021 <span className="experience-to">to</span>
+  <br />
+  Present
+</h3>
 
-        <p>
-          Advertising Years Experience
-        </p>
+  <p>
+    Marketplace Advertising Experience
+  </p>
 
-      </div>
+</div>
 
       <div className="highlight-card">
 
@@ -99,8 +103,8 @@ export default function Home() {
         <h3>$XXM+</h3>
 
         <p>
-        Attributed Ads Sales
-        </p>
+  Revenue Attributed to Paid Media
+</p>
 
       </div>
 
@@ -142,14 +146,36 @@ export default function Home() {
 <div className="brand-category-card">
   <h3>🍪 Snacks & Biscuits</h3>
 
-  <div className="brand-list">
-    <span>Bahlsen</span>
-    <span>Walkers</span>
-    <span>Gullón</span>
-    <span>TREK</span>
-    <span>NAKD</span>
-    <span>BEAR</span>
-    <span>Lotus Biscoff</span>
+  <div className="brand-logo-grid">
+
+    <div className="brand-logo bahlsen-logo">
+  <img src="/Brands/bahlsen.png" alt="Bahlsen" />
+</div>
+
+   <div className="brand-logo walkers-logo">
+  <img src="/Brands/walkers.png" alt="Walkers" />
+</div>
+
+    <div className="brand-logo">
+      <img src="/Brands/gullon.png" alt="Gullón" />
+    </div>
+
+    <div className="brand-logo">
+      <img src="/Brands/trek.png" alt="TREK" />
+    </div>
+
+    <div className="brand-logo">
+      <img src="/Brands/nakd.png" alt="NAKD" />
+    </div>
+
+    <div className="brand-logo">
+      <img src="/Brands/bear.png" alt="BEAR" />
+    </div>
+
+    <div className="brand-logo lotus-logo">
+  <img src="/Brands/lotus.png" alt="Lotus Biscoff" />
+</div>
+
   </div>
 </div>
 
@@ -492,17 +518,17 @@ export default function Home() {
 
     <div className="section-heading">
 
-      <span>FEATURED PROJECTS</span>
+     <span>SELECTED CASE STUDIES</span>
 
-      <h2>
-        Solving Marketplace Challenges Through Strategy and Optimization
-      </h2>
+<h2>
+  Turning Marketplace Data Into Strategy, Efficiency, and Growth
+</h2>
 
-      <p>
-        Examples of how I approach marketplace advertising by identifying
-        opportunities, improving campaign performance, and supporting
-        long-term business growth.
-      </p>
+<p>
+  Selected examples of how I diagnose performance challenges,
+  restructure campaigns, optimize advertising investment,
+  and build scalable marketplace growth strategies.
+</p>
 
     </div>
 
