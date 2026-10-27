@@ -1,4 +1,3 @@
-// @ts-expect-error Next.js handles this global stylesheet import at runtime.
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
